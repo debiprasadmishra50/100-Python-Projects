@@ -1,4 +1,4 @@
-## Pomodore App
+## Pomodoro App
 ***
 
 > This application is based on Pomodore Technique of Time Management
