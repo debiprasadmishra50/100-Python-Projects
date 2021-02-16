@@ -93,6 +93,7 @@ with open("data.txt", mode="r") as file:
         add_data(graph_endpoint, GRAPH_ID)
         with open("data.txt", mode="w") as file:
             file.write(f"2\n{graph_endpoint}\n{GRAPH_ID}")
+            print("Come Back Tomorrow, Bye!")
     else:
         with open("data.txt", mode="r") as file:
             data = file.read().split("\n")
