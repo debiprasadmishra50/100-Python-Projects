@@ -9,7 +9,7 @@ HEADERS = {
 
 def habit_tracking():
 
-    USERNAME = input("Enter a User Name(lower-case letters and numbers only): ").lower()
+    USERNAME = input("Enter a User Name(lower-case letters and numbers only): ")  #.lower()
 
     # ---------------------- CREATE A NEW ACCOUNT WITH YOUR USERNAME - POST Request ---------------------- #
     pixela_endpoint = "https://pixe.la/v1/users"
@@ -23,7 +23,8 @@ def habit_tracking():
 
     if not response.json()["isSuccess"]:
         print(f"{response.json()['message']} Try Again!\n")
-        habit_tracking()
+        graph_endpoint, GRAPH_ID = habit_tracking()
+        return graph_endpoint, GRAPH_ID
     elif response.json()["isSuccess"]:
         # ---------------------- CREATE A GRAPH - POST Request ---------------------- #
         print(f"User {user_params['username']} Created, Now Creating Graph")
