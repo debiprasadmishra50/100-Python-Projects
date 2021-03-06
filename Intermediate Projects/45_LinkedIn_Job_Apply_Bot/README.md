@@ -1,7 +1,7 @@
 ## LinkedIn Job Apply Bot
 ***
 
-> This application will is a bot that will take your LinkedIn credentials once, when you run the app, and will automatically apply for all the suitable available job applications in your LinkedIn Profile
+> This application is a bot that will take your LinkedIn credentials once, when you run the app, and will automatically apply for all the suitable available job applications in your LinkedIn Profile
 
 > You will be asked for your *Linked ID, Password and phone number* once when you run the app, you will not be asked for it again.
 
