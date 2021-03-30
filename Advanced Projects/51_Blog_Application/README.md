@@ -7,9 +7,11 @@
 
 > [Here is a sample of how you can add data](https://www.npoint.io/docs/3f470bc59dd8ae9f8edd)
 
-> After adding the data in *npoint* paste the **`API-URL`** of the blog-data which is present at the *very bottom of the page* in **`line-7`** which is **`BLOG_URL`** field of **`main.py`** file
+> After adding the data in *npoint* paste the **`API-URL`** of the blog-data which is present at the *very bottom of the page* in **`line-9`** which is **`BLOG_URL`** field of **`main.py`** file
 
-> After running the applciation it will give you a url to check the demo of your blog-site
+> Please put your *`Email`* and *`Password`* in *`MAIL`* and *`MAIL_PASSWORD`* field *`line-10 and 11`* for receiving mail from blog readers.
+
+> After running the application it will give you a url to check the demo of your blog-site
 
 
 #### Please follow these steps to get your application working
